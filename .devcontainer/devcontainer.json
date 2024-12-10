@@ -1,0 +1,17 @@
+{
+	"name": "Rails API Dev Container",
+	"dockerFile": "Dockerfile",
+	"context": "..",
+	"runArgs": ["--init"],
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/sh"
+	},
+	"extensions": [
+		"rebornix.Ruby",
+		"castwide.solargraph",
+		"misogi.ruby-rubocop",
+		"eamodio.gitlens",
+	],
+	// "postCreateCommand": "bundle install",
+	"remoteUser": "root"
+}
