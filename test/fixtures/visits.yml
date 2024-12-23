@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  school: MyString
+  contact_name: MyString
+  email: MyString
+  phone: MyString
+  visit_date: 2024-12-23 13:34:12
+  students_count: 1
+  status: MyString
+  notes: MyText
+
+two:
+  school: MyString
+  contact_name: MyString
+  email: MyString
+  phone: MyString
+  visit_date: 2024-12-23 13:34:12
+  students_count: 1
+  status: MyString
+  notes: MyText
