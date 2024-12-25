@@ -7,13 +7,13 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
-unless User.exists?(email: 'admin@example.com')
-    User.create!(
-      email: 'admin@admin.com',
-      password: '@#4admi1n4Adm1in12345.', # Cambia la contraseña según tus necesidades
-      admin: true # Si tienes un atributo para determinar si es administrador
-    )
-    puts "Usuario administrador creado."
-  else
-    puts "El usuario administrador ya existe."
-  end
+unless User.exists?(email: 'admin@admin.com')
+  User.create!(
+    email: 'admin@admin.com',
+    password: 'admin12345', # Cambia la contraseña según tus necesidades
+    admin: true # Si tienes un atributo para determinar si es administrador
+  )
+  puts "Usuario administrador creado."
+else
+  puts "El usuario administrador ya existe."
+end
