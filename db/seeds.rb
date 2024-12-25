@@ -9,8 +9,8 @@
 #   end
 unless User.exists?(email: 'admin@example.com')
     User.create!(
-      email: 'admin@example.com',
-      password: 'password123', # Cambia la contraseña según tus necesidades
+      email: 'admin@admin.com',
+      password: '@#4admi1n4Adm1in12345.', # Cambia la contraseña según tus necesidades
       admin: true # Si tienes un atributo para determinar si es administrador
     )
     puts "Usuario administrador creado."
